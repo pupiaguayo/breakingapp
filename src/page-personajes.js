@@ -19,7 +19,7 @@ class PagePersonajes extends React.Component {
     let cambioName = this.state.nombre;
     if (this.props.location !== prevProps.location) {
       this.fetchData(
-        `https://breakingbadapi.com/api/characters?name=` + cambioName + ``
+        `https://breakingbadapi.com/api/characters?category=` + cambioName + ``
       );
     }
   }
@@ -47,10 +47,10 @@ class PagePersonajes extends React.Component {
         <div className="container container-edit">
           <form className="buscador" name="form" onSubmit={this.handleSubmit}>
             <div className="input">
-              <h1>Filtrar por Nombre</h1>
+              <h1>Filtrar por Serie</h1>
               <input
                 type="text"
-                placeholder="Ingrese Nombre"
+                placeholder="Breaking Bad o Better Call Saul"
                 value={this.onChange}
                 onChange={this.handleChange}
                 name="Buscador"
