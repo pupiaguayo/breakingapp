@@ -1,9 +1,9 @@
-.tarjeta {
+.tarjetaPersonajes {
   display: flex;
   border: solid 0.125em rgb(0, 92, 20);
   background-color: rgb(0, 51, 11);
   width: 15em;
-  height: 20em;
+  height: 19em;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
@@ -12,23 +12,23 @@
   box-shadow: 0.2em 0.2em 1em rgb(56, 56, 56);
   color: white;
 }
-.tarjeta h1 {
+.tarjetaPersonajes h1 {
   color: white;
 }
-.tarjeta p {
+.tarjetaPersonajes p {
   width: 100%;
 }
-.imgCard {
+.imgCardPersonajes {
   height: 12em;
-  width: 14.5em;
+  width: 10em;
   object-fit: cover;
   border-radius: 0.625em;
 }
-.titleCard {
+.titleCardPersonajes {
   font-size: 1.3em;
   width: 100%;
 }
-.tarjeta:hover {
+.tarjetaPersonajes:hover {
   box-shadow: 0.2em 0.2em 1em rgb(0, 177, 38);
   cursor: pointer;
 }

@@ -63,7 +63,7 @@ class PagePersonajes extends React.Component {
                 <CardPersonajes
                   imgPersonajes={item.img}
                   nombrePersonaje={item.name}
-                  fechaCumple={item.birthday}
+                  nickname={item.nickname}
                   estado={item.status}
                   key={i}
                 />

@@ -24,13 +24,19 @@ function Navbar() {
         <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
           <ReactBootStrap.Nav className="mr-auto nav-edit">
             <ReactBootStrap.Nav.Link to="/" className="nav-links">
-              <Link to="/">Home</Link>
+              <Link to="/" className="nav-links">
+                Home
+              </Link>
             </ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link className="nav-links">
-              <Link to="/episodios">Episodios </Link>
+              <Link to="/episodios" className="nav-links">
+                Episodios{" "}
+              </Link>
             </ReactBootStrap.Nav.Link>
             <ReactBootStrap.Nav.Link className="nav-links">
-              <Link to="/personajes">Personajes </Link>
+              <Link to="/personajes" className="nav-links">
+                Personajes{" "}
+              </Link>
             </ReactBootStrap.Nav.Link>
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
